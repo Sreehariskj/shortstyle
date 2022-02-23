@@ -1,0 +1,10 @@
+/*
+step 1 - style="background-image: linear-gradient(direction, color1, color2);"
+step 2 - add gradient text class 
+*/
+.gradient-text {
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
