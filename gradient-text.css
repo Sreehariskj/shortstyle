@@ -1,10 +1,224 @@
 /*
-step 1 - style="background-image: linear-gradient(direction, color1, color2);"
-step 2 - add gradient text class 
+1- to top
+2- to left
+3- to bottom
+4- to right
+
+for gradient,
+keyword => gradient
+first position - direction - values  1 - 4
+second position - color-stop1 - values red, blue, green, yellow, orange
+third position - color-stop2 - values  red, blue, green, yellow, orange
+
+for gradient text, 
+just add class  gradient-text with gradient
 */
+/* gradient text */
 .gradient-text {
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/*gradient to top and to bottom*/
+.gradient-1-red-blue, .gradient-3-blue-red {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(red), to(blue));
+  background-image: linear-gradient(to top, red, blue);
+}
+
+.gradient-1-red-green, .gradient-3-green-red {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(red), to(green));
+  background-image: linear-gradient(to top, red, green);
+}
+
+.gradient-1-red-yellow, .gradient-3-yellow-red {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(red), to(yellow));
+  background-image: linear-gradient(to top, red, yellow);
+}
+
+.gradient-1-red-orange, .gradient-3-orange-red {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(red), to(orange));
+  background-image: linear-gradient(to top, red, orange);
+}
+
+.gradient-1-blue-red, .gradient-3-red-blue {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(blue), to(red));
+  background-image: linear-gradient(to top, blue, red);
+}
+
+.gradient-1-blue-green, .gradient-3-green-blue {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(blue), to(green));
+  background-image: linear-gradient(to top, blue, green);
+}
+
+.gradient-1-blue-yellow, .gradient-3-yellow-blue {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(blue), to(yellow));
+  background-image: linear-gradient(to top, blue, yellow);
+}
+
+.gradient-1-blue-orange, .gradient-3-orange-blue {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(blue), to(orange));
+  background-image: linear-gradient(to top, blue, orange);
+}
+
+.gradient-1-green-red, .gradient-3-red-green {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(green), to(red));
+  background-image: linear-gradient(to top, green, red);
+}
+
+.gradient-1-green-blue, .gradient-3-blue-green {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(green), to(blue));
+  background-image: linear-gradient(to top, green, blue);
+}
+
+.gradient-1-green-yellow, .gradient-3-yellow-green {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(green), to(yellow));
+  background-image: linear-gradient(to top, green, yellow);
+}
+
+.gradient-1-green-orange, .gradient-3-orange-green {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(green), to(orange));
+  background-image: linear-gradient(to top, green, orange);
+}
+
+.gradient-1-yellow-red, .gradient-3-red-yellow {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(yellow), to(red));
+  background-image: linear-gradient(to top, yellow, red);
+}
+
+.gradient-1-yellow-blue, .gradient-3-blue-yellow {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(yellow), to(blue));
+  background-image: linear-gradient(to top, yellow, blue);
+}
+
+.gradient-1-yellow-green, .gradient-3-green-yellow {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(yellow), to(green));
+  background-image: linear-gradient(to top, yellow, green);
+}
+
+.gradient-1-yellow-orange, .gradient-3-orange-yellow {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(yellow), to(orange));
+  background-image: linear-gradient(to top, yellow, orange);
+}
+
+.gradient-1-orange-red, .gradient-3-red-orange {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(orange), to(red));
+  background-image: linear-gradient(to top, orange, red);
+}
+
+.gradient-1-orange-blue, .gradient-3-blue-orange {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(orange), to(blue));
+  background-image: linear-gradient(to top, orange, blue);
+}
+
+.gradient-1-orange-green, .gradient-3-green-orange {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(orange), to(green));
+  background-image: linear-gradient(to top, orange, green);
+}
+
+.gradient-1-orange-yellow, .gradient-3-yellow-orange {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(orange), to(yellow));
+  background-image: linear-gradient(to top, orange, yellow);
+}
+
+/*gradient to left and to right*/
+.gradient-2-red-blue, .gradient-4-blue-red {
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(blue));
+  background-image: linear-gradient(to left, red, blue);
+}
+
+.gradient-2-red-green, .gradient-4-green-red {
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(green));
+  background-image: linear-gradient(to left, red, green);
+}
+
+.gradient-2-red-yellow, .gradient-4-yellow-red {
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(yellow));
+  background-image: linear-gradient(to left, red, yellow);
+}
+
+.gradient-2-red-orange, .gradient-4-orange-red {
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(orange));
+  background-image: linear-gradient(to left, red, orange);
+}
+
+.gradient-2-blue-red, .gradient-4-red-blue {
+  background-image: -webkit-gradient(linear, right top, left top, from(blue), to(red));
+  background-image: linear-gradient(to left, blue, red);
+}
+
+.gradient-2-blue-green, .gradient-4-green-blue {
+  background-image: -webkit-gradient(linear, right top, left top, from(blue), to(green));
+  background-image: linear-gradient(to left, blue, green);
+}
+
+.gradient-2-blue-yellow, .gradient-4-yellow-blue {
+  background-image: -webkit-gradient(linear, right top, left top, from(blue), to(yellow));
+  background-image: linear-gradient(to left, blue, yellow);
+}
+
+.gradient-2-blue-orange, .gradient-4-orange-blue {
+  background-image: -webkit-gradient(linear, right top, left top, from(blue), to(orange));
+  background-image: linear-gradient(to left, blue, orange);
+}
+
+.gradient-2-green-red, .gradient-4-red-green {
+  background-image: -webkit-gradient(linear, right top, left top, from(green), to(red));
+  background-image: linear-gradient(to left, green, red);
+}
+
+.gradient-2-green-blue, .gradient-4-blue-green {
+  background-image: -webkit-gradient(linear, right top, left top, from(green), to(blue));
+  background-image: linear-gradient(to left, green, blue);
+}
+
+.gradient-2-green-yellow, .gradient-4-yellow-green {
+  background-image: -webkit-gradient(linear, right top, left top, from(green), to(yellow));
+  background-image: linear-gradient(to left, green, yellow);
+}
+
+.gradient-2-green-orange, .gradient-4-orange-green {
+  background-image: -webkit-gradient(linear, right top, left top, from(green), to(orange));
+  background-image: linear-gradient(to left, green, orange);
+}
+
+.gradient-2-yellow-red, .gradient-4-red-yellow {
+  background-image: -webkit-gradient(linear, right top, left top, from(yellow), to(red));
+  background-image: linear-gradient(to left, yellow, red);
+}
+
+.gradient-2-yellow-blue, .gradient-4-blue-yellow {
+  background-image: -webkit-gradient(linear, right top, left top, from(yellow), to(blue));
+  background-image: linear-gradient(to left, yellow, blue);
+}
+
+.gradient-2-yellow-green, .gradient-4-green-yellow {
+  background-image: -webkit-gradient(linear, right top, left top, from(yellow), to(green));
+  background-image: linear-gradient(to left, yellow, green);
+}
+
+.gradient-2-yellow-orange, .gradient-4-orange-yellow {
+  background-image: -webkit-gradient(linear, right top, left top, from(yellow), to(orange));
+  background-image: linear-gradient(to left, yellow, orange);
+}
+
+.gradient-2-orange-red, .gradient-4-red-orange {
+  background-image: -webkit-gradient(linear, right top, left top, from(orange), to(red));
+  background-image: linear-gradient(to left, orange, red);
+}
+
+.gradient-2-orange-blue, .gradient-4-blue-orange {
+  background-image: -webkit-gradient(linear, right top, left top, from(orange), to(blue));
+  background-image: linear-gradient(to left, orange, blue);
+}
+
+.gradient-2-orange-green, .gradient-4-green-orange {
+  background-image: -webkit-gradient(linear, right top, left top, from(orange), to(green));
+  background-image: linear-gradient(to left, orange, green);
+}
+
+.gradient-2-orange-yellow, .gradient-4-yellow-orange {
+  background-image: -webkit-gradient(linear, right top, left top, from(orange), to(yellow));
+  background-image: linear-gradient(to left, orange, yellow);
 }
