@@ -7,9 +7,9 @@ Copy-paste the stylesheet <link> into your <head> before all other stylesheets t
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sreehariskj/shortstyle@1.0.0/shortstyle.min.css" />
   
 ### Features
-  Flex
-  Gradient and Gradient Text
-  Height and Width 
+  Flex <br>
+  Gradient and Gradient Text<br>
+  Height and Width <br>
   Background Color and Color
   
   ## For More info
