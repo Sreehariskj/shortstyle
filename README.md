@@ -1,10 +1,5 @@
 # shortstyle
 Is a simplest css framework made with sass
-
-## Get Started
-add the stylesheet <link> into your <head> before all other stylesheets to load our CSS
-  
- cdn link : https://cdn.jsdelivr.net/gh/Sreehariskj/shortstyle@1.0.0/shortstyle.min.css
   
 ### Features
  . Flex <br>
