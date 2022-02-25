@@ -1,6 +1,6 @@
 /*
   key word => flex
-  first position - direction of flex - values r and c :: add - at first of keyword for reverse
+  first position - direction of flex - values r and c :: add hyphen( - ) at first of keyword for reverse
   second position - justify-content - values 0 to 5
   third position - align-items - values 0 to 2
 
@@ -6517,9 +6517,9 @@
 
 for gradient,
 keyword => gradient
-first position - direction - values  1 - 4
-second position - color-stop1 - values red, blue, green, yellow, orange
-third position - color-stop2 - values  red, blue, green, yellow, orange
+first portion - direction - values  1 - 4
+second portion - color-stop1 - values red, blue, green, yellow, orange
+third portion - color-stop2 - values  red, blue, green, yellow, orange
 
 for gradient text, 
 just add class  gradient-text with gradient
@@ -6909,8 +6909,8 @@ values - 10 20 30 40 50 60 70 80 90 100
 
 /*
 bg - background color
-color - color 
-first portion - color first letter - values light, dark, red, blue, green, yellow, orange
+text - color 
+first portion - name of color - values light, dark, red, blue, green, yellow, orange
 second portion - shades of color - values 0 default color - 9 lightest shade 
 :: exception reverse in light - 9 darkest shade  
 */

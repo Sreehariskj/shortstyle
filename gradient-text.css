@@ -6,9 +6,9 @@
 
 for gradient,
 keyword => gradient
-first position - direction - values  1 - 4
-second position - color-stop1 - values red, blue, green, yellow, orange
-third position - color-stop2 - values  red, blue, green, yellow, orange
+first portion - direction - values  1 - 4
+second portion - color-stop1 - values red, blue, green, yellow, orange
+third portion - color-stop2 - values  red, blue, green, yellow, orange
 
 for gradient text, 
 just add class  gradient-text with gradient

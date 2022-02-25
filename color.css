@@ -1,7 +1,7 @@
 /*
 bg - background color
-color - color 
-first portion - color first letter - values light, dark, red, blue, green, yellow, orange
+text - color 
+first portion - name of color - values light, dark, red, blue, green, yellow, orange
 second portion - shades of color - values 0 default color - 9 lightest shade 
 :: exception reverse in light - 9 darkest shade  
 */
