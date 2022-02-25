@@ -1,5 +1,5 @@
 # shortstyle
-Is a simplest css framework made with sass
+Is  simplest css framework ever which makes web designer life easier.  
   
 ### Features
  . Flex <br>
