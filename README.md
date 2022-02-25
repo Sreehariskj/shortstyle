@@ -5,7 +5,8 @@ Is a simplest css framework made with sass
 Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS
   
  cdn link : https://cdn.jsdelivr.net/gh/Sreehariskj/shortstyle@1.0.0/shortstyle.min.css
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sreehariskj/shortstyle@1.0.0/shortstyle.min.css" />
+  
+  [Link to cdn](<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sreehariskj/shortstyle@1.0.0/shortstyle.min.css" />)
   
 ### Features
  . Flex <br>
